@@ -1,0 +1,174 @@
+.qv-object-table_extension .buttonExte {
+	width: 100%;
+	height: 35px;
+	color: #fff;
+	font-family: Tahoma;
+  	text-shadow: -1px 1px #346392;
+  	background-color: #346392;
+  	background-image: linear-gradient(top, #6496c8, #346392);
+  	box-shadow: inset 0 0 0 1px #27496d;
+  	border: none;
+  	border-radius: 6px;
+  	cursor: pointer;
+  	transition:all  0.4s ease;
+}
+
+.qv-object-table_extension .buttonExteInit{
+	width: 100%;
+	height: 35px;
+	color: #fff;
+	font-family: Tahoma;
+  	text-shadow: -1px 1px #346392;
+  	background-color: #f68512;
+  	background-image: linear-gradient(top, #6496c8, #346392);
+  	box-shadow: inset 0 0 0 1px #27496d;
+  	border: none;
+  	border-radius: 6px;
+  	transition:all  0.4s ease;
+  	cursor: pointer;
+}
+
+
+
+.qv-object-table_extension .buttonExteMinimize{
+	width: 100%;
+	height: 35px;
+	color: #fff;
+	font-family: Tahoma;
+  	text-shadow: -1px 1px #346392;
+  	background-color: #f4c97a;
+  	background-image: linear-gradient(top, #f4c97a, #FFA500);
+  	box-shadow: inset 0 0 0 1px #f6f6f6;
+  	border: none;
+  	border-radius: 6px;
+  	cursor: pointer;
+  	transition:all  0.4s ease;
+}
+
+
+.qv-object-table_extension .buttonExteInit, .buttonExte:hover{
+	box-shadow: inset 0 0 0 1px #27496d,0 5px 10px #193047;
+	background: linear-gradient(left top,#346392,#9fb6f4,#346392);
+	background: -webkit-linear-gradient(-90deg,#346392,#9fb6f4,#346392); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-90deg,#346392,#9fb6f4,#346392);; /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-90deg,#346392,#9fb6f4,#346392); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(-90deg,#346392,#9fb6f4,#346392); /* Standard syntax */
+
+}
+
+
+.qv-object-table_extension .buttonExteMinimize:hover{
+	box-shadow: inset 0 0 0 1px #27496d,0 5px 10px #193047;
+	background: linear-gradient(left top,#ffc04c,#ffe4b2,#ffa500);
+	background: -webkit-linear-gradient(left top,#ffc04c,#ffe4b2,#ffa500); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left top,#ffc04c,#ffe4b2,#ffa500); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left top,#ffc04c,#ffe4b2,#ffa500); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(left top,#ffc04c,#ffe4b2,#ffa500); /* Standard syntax */
+}
+
+
+.qv-object-table_extension .legendTable{
+	        float: left;
+		    width: 115px;
+		    margin-right: 1%;
+		    /* align-items: center; */
+		       margin-top: 125px;
+		    margin-left: 6%;
+}
+
+.qv-object-table_extension .container_svg{
+		display: inline-block;
+		width: 300px !important;
+		 float: left;
+
+}
+
+.qv-object-table_extension .color_bullet{
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+	margin-right: 13px;
+	    float: left;
+    border-radius: 10px;
+}
+
+
+.qv-object-table_extension table{
+	border: none;
+}
+
+.qv-object-table_extension th,
+.qv-object-table_extension tr,
+.qv-object-table_extension td{
+	text-align: center;
+	transition:all  0.3s ease;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	vertical-align: middle;
+	align: center;
+	
+    background-color: transparent;
+	border-top: 0px solid #fff;
+	border-bottom: 1px solid #e3e3e3;
+	border-right: 0px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align:middle;
+	text-align:center;
+	cursor: default;
+	font-size: 12px;
+	cursor: pointer;
+	color:#808080;
+
+
+
+}
+
+.qv-object-table_extension thead >tr> th{
+	border-bottom: 1px solid #b0b0b0;
+	color:inherit !important;
+	font-size: 1.15384em;
+	font-family: 'QlikView Sans', sans-serif;
+}
+
+.qv-object-table_extension .index_col{
+	width: 66px;
+
+}
+
+
+
+
+/*.qv-object-table_extension tbody > tr:hover{
+	
+	background-image: linear-gradient(top, #90ddb0, #8bd88b) !important;
+	background-image: -o-linear-gradient(top, #90ddb0, #8bd88b) !important;
+	background-image: -moz-linear-gradient(top, #90ddb0, #8bd88b) !important;
+	background-image: -webkit-linear-gradient(top, #90ddb0, #8bd88b) !important;
+	background-image: -ms-linear-gradient(top, #90ddb0, #8bd88b) !important;
+
+}*/
+
+
+
+
+.qv-object-table_extension tr.selected >td{
+	
+	background-image: linear-gradient(top, #52cc52, #71d471) !important;
+	background-image: -o-linear-gradient(top, #52cc52, #71d471) !important;
+	background-image: -moz-linear-gradient(top, #52cc52, #71d471) !important;
+	background-image: -webkit-linear-gradient(top, #52cc52, #71d471) !important;
+	background-image: -ms-linear-gradient(top, #52cc52, #71d471) !important;
+	/*color: white !important;*/
+
+}
+
+
+.qv-object-table_extension  div.qv-object-content-container {
+	overflow: auto;
+}
+
+
+
+

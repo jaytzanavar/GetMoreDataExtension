@@ -470,8 +470,42 @@ define(["jquery","qlik",
                     }    
 
 
+                    /***TO DELETE **/
+                    $(document).ready(function()
+                    {   
+                        
+                       
+                        if(layout.index.show === false)
+                        {
+                            
+                            $(".non_existing").hide(250);
+                        }
+                        else
+                        {
+                            $(".non_also").show(550);   
+                        }
+
+                        
+
+                        
+
+                       $(".Change_me").mouseover(function() {
+                            
+                             $(this).css("background-color", 'linear-gradient(top,'+palette[layout.color]+',#000000)');
+                             $(this).children().css("color", 'white');
+
+                        }).mouseout(function() {
+                            
+                            $(this).css("background-color","transparent");
+                              $(this).children().css("color", '#808080');
+                        });
+
+                    });
 
                     return qlik.Promise.resolve();
+
+
+                    console.log("Git Tutorial: Attached vs Detached HeadThis is a warning telling you that everything you’re doing is “detached” from the rest of your project’s development. If you were to start developing a feature while in a detached HEAD state, there would be no branch allowing you to get back to it. When you inevitably check out another branch (e.g., to merge your feature in), there would be no way to reference your featureGit Tutorial: Detached Head statThe point is, your development should always take place on a branch—never on a detached HEAD. This makes sure you always have a reference to your new commits. However, if you’re just looking at an old commit, it doesn’t really matter if you’re in a detached HEAD state or not.xampleThe following example demonstrates the basic Git branching process. When you want to start working on a new feature, you create a dedicated branch and switch into it:git branch new-featuregit checkout new-featurThen, you can commit new snapshots just like we’ve seen in previous modules:# Edit some filesgit add <file>git commit -m");
 
 
 

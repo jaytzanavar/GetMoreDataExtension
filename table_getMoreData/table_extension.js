@@ -483,6 +483,9 @@ define(["jquery","qlik",
 
 
 
+
+
+
 }  
 };  
 });  
